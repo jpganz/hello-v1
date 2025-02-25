@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  my-helm-chart:
+  - apiVersion: v2
+    created: "2025-02-25T22:14:49.598771+01:00"
+    description: A sample Helm chart for NGINX (with a secret)
+    digest: af81eabbea57820589aca4889a8ceea68c53809e2b11ccd2dc0981667df944fe
+    name: my-helm-chart
+    urls:
+    - https://raw.githubusercontent.com/jpganz/hello-v1/main/helm-packages/my-helm-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-02-25T22:14:49.59695+01:00"

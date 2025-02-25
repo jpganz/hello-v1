@@ -1,0 +1,14 @@
+image:
+  repository: nginx
+  tag: alpine
+
+replicaCount: 1
+
+service:
+  type: ClusterIP
+  port: 80
+
+secret:
+  name: my-plain-secret
+  data:
+    secretFileContent: "REPLACE_ME"
