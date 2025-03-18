@@ -2,11 +2,34 @@ apiVersion: v1
 entries:
   my-helm-chart:
   - apiVersion: v2
-    created: "2025-02-25T22:14:49.598771+01:00"
+    created: "2025-03-18T07:23:21.443712+01:00"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.21.0
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 7.3.11
     description: A sample Helm chart for NGINX (with a secret)
-    digest: af81eabbea57820589aca4889a8ceea68c53809e2b11ccd2dc0981667df944fe
+    digest: e9e315f9bed24aff80067c184f323006e7944b34aa1e314b21ee09c068b3b9f3
     name: my-helm-chart
     urls:
-    - https://raw.githubusercontent.com/jpganz/hello-v1/main/helm-packages/my-helm-chart-0.1.0.tgz
+    - https://jpganz-charts.s3.amazonaws.com/my-helm-chart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2025-03-18T07:23:21.432233+01:00"
+    description: A sample Helm chart for NGINX (with a secret)
+    digest: a66ee961e6832b873d61e617eef958dbe965775bfb0ef1028a24c7fc4b261f66
+    name: my-helm-chart
+    urls:
+    - https://jpganz-charts.s3.amazonaws.com/my-helm-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2025-03-18T07:23:21.43201+01:00"
+    description: A sample Helm chart for NGINX (with a secret)
+    digest: 49acb278a4985dcee0986a3f9036d567e3dc3f4b5f6b360e9adf395a98a51644
+    name: my-helm-chart
+    urls:
+    - https://jpganz-charts.s3.amazonaws.com/my-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-25T22:14:49.59695+01:00"
+generated: "2025-03-18T07:23:21.431653+01:00"

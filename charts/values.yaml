@@ -12,3 +12,10 @@ secret:
   name: my-plain-secret
   data:
     secretFileContent: "REPLACE_ME"
+
+
+grafana:
+  dashboards:
+    default:
+      nginx-dashboard:
+        file: dashboards/nginx-dashboard.json

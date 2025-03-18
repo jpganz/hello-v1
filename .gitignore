@@ -1,0 +1,16 @@
+// create a gitignore for .DS files and all build folders
+
+.DS_Store
+*/.DS_Store
+node_modules
+dist
+coverage
+build
+temp
+*.log
+*.log.*
+*.log-*
+*.log/*
+*.log-*/
+*.log-*/
+.idea/

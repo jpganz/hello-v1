@@ -26,4 +26,4 @@ spec:
       volumes:
         - name: secret-volume
           secret:
-            secretName: my-sealed-secret
+            secretName: {{ .Values.secret.name }}
